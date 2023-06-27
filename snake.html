@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+
+   <div id="controls">
+    <div id="game-board"></div>
+    <div id="score"><b>Score: 0</b></div>
+  </div>
+
+  <button id="colors" class="modalbtn">Options</button>
+
+  <div id="clrsmodal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <button class="collapsible">About</button>
+      <div class="content">
+        <p>This is snake made by me. <wbr>
+          This game uses arrow keys, touch or controller. <wbr>
+          This project is open-source and free. <wbr>
+          This project's code is in <a href="https://github.com">GitHub</a>. <wbr>
+          <a href="https://github.com/InfinityGorzan/Snake-Game">Open the project's repository</a>.
+        </p>
+      </div>
+      <button class="collapsible">Colors</button>
+      <div class="content">
+        <p>Choose a color: </p>
+      <button id="red">Red</button>
+      <button id="orange">Orange</button>
+      <button id="yellow">Yellow</button>
+      <button id="green">Green</button>
+      <button id="blue">Blue</button>
+      <button id="pink">Pink</button>
+      <button id="purple">Purple</button>
+      <button id="invertDT"><span id="invertDeviceTheme"></span></button>
+      </p>
+      </div>
+      <button onclick="location.reload()" style="width: 100%;">Refresh (if any screen changes is made)</button>
+    </div>
+  </div>
+
+  <script src="snake.js" defer></script>
+
+</body>
+</html>
